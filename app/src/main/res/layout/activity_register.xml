@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".accounts.RegisterActivity"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/collaborationImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/collaboration"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:id="@+id/sign_up_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_text"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cambria"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/uName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cambria"
+        android:backgroundTint="@color/colorAqua"
+
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/userAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorAqua"
+        android:fontFamily="@font/cambria"/>
+
+
+
+    <EditText
+        android:id="@+id/uNationalId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cambria"
+        android:ems="10"
+        android:hint="@string/national_id"
+        android:inputType="numberSigned"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorAqua"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/choose_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addUser"
+            android:text="@string/choose"
+            android:fontFamily="@font/cambria"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/id_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/id" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/upload_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/upload"
+        android:fontFamily="@font/cambria"
+        />
+
+
+    <EditText
+        android:id="@+id/ver_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/ver_code"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:fontFamily="@font/cambria"
+        android:backgroundTint="@color/colorAqua"/>
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addUser"
+        android:text="@string/register"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/shape_rounded_button"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cambria"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

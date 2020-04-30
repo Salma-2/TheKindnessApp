@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543007705283",
+    "firebase_url": "https://charityapp-59bd9.firebaseio.com",
+    "project_id": "charityapp-59bd9",
+    "storage_bucket": "charityapp-59bd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543007705283:android:f6f55695c96b9c78077a76",
+        "android_client_info": {
+          "package_name": "com.example.charityapplicationsigninup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543007705283-pa3eo9tjgnhghk0s3ektie5f3qmdegsr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.charityapplicationsigninup",
+            "certificate_hash": "eb249be6b421459553c9f4158be7588e6448c29c"
+          }
+        },
+        {
+          "client_id": "543007705283-qsnhumqq5doop5pfvajt25fra7d8ujvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbIYVLLKCeK23EaWdqdUx-NckTwxL5CW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543007705283-qsnhumqq5doop5pfvajt25fra7d8ujvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
