@@ -4,11 +4,15 @@ Kindness Charity Android Application
 
 This app is developed to let people who are having problems to be helped by people who can offer helping.
 
+Test Account:
+phone number : +201113300680   (Egypt Country)
+verification code : 123456
+
 Instructions and Information:
 1. Run the app through MainActivity.
 2. You can walk through the onBoarding screen or skip.
 3. Put your phone Number into the EditText and select your country's code (It's selected automatically but can be
-used manually) note: the country code picker is an open source API not made by the team.
+used manually) note: the country code picker is an open source API not made by the team use testing account given above.
 4. The app uses firebase authentication using phone-number so it sends verification code to the user and the app
 validates the credentials
 5. User must sign up on first time to access the app and its features also in sign up process an account for the
