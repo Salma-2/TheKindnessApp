@@ -7,6 +7,7 @@ This app is developed to let people who are having problems to be helped by peop
 Test Account:
 phone number : +201113300680   (Egypt Country)
 verification code : 123456
+(this account is for testing the app, you can create your own but the app is still under development.)
 
 ![](images/imageone.jpeg)
 ![](images/imagetwo.jpeg)
